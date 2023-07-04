@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar1" id="top">
+        <div class="logo"><img src="./images/White-Amazon-Logo-PNG-HD-Quality.png"></div>
+        <div class="map"><i class='bx bx-map'></i><p>Deliver to <br><span>Nigeria</span></p></div>
+        <div class="searchbar">
+        <select name="dropdown" id="dropdown">
+            <option value="All">All Departments</option>
+            <option value="Abia State">Arts & Craft</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Baby">Baby</option>
+            <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+            <option value="Books">Books</option>
+            <option value="Boys'Fashion">Boys'Fashion</option>
+            <option value="Computers">Computers</option>
+            <option value="Deals">Deals</option>
+            <option value="Digital Music">Digital Music</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Girls'Fashion">Girls'Fashion</option>
+            <option value="Health & Household">Health & Household</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Industrial & Scientific">Industrial & Scientific</option>
+            <option value="Kindle Store">Kindle Store</option>
+            <option value="Luggage">Luggage</option>
+            <option value="Mens'Fashion">Mens'Fashion</option>
+            <option value="Movies & TV">Movies & TV</option>
+            <option value="Music, CDs & Vinyl">Music, CDs & Vinyl</option>
+            <option value="Pet Supplies">Pet Supplies</option>
+            <option value="Prime Video">Prime Video"</option>
+            <option value="Software">Software</option>
+            <option value="Sports & Outdoors">Sports & Outdoors</option>
+            <option value="Toys & Games">Toys & Games</option>
+            <option value="Video Games">Video Games</option>
+            <option value="Womens'Fashion">Womens'Fashion</option>
+        </select>
+         <input class="srch" type="search" name="" placeholder="Search Amazon">
+                 <a href="top"><button class="btn"><i class='bx bx-search' ></i></button></a>   
+        </div>
+        <div class="region">
+                <div class="en-top">
+                    <img src="./images/R.png">
+                   <p>EN</p> <i class='bx bxs-down-arrow'></i>
+                </div>
+                <div class="en">
+                    <div class="en-begin">
+                        <p>Change language <a href="#">Learn more</a></p>
+                    </div>
+                    <div class="en-end">
+                    <input type="radio" name="radio"  value="" checked="checked" /> <a href="#">English - EN</a>
+                    <p> <div class="line"></div></p>
+                    <p><input type="radio" name="radio"> <a href="#">español  - ES</a></p>
+                    <p><input type="radio" name="radio"> <a href="#">اَلْعَرَبِيَّةُ - AR</a></p>
+                    <p><input type="radio" name="radio"> <a href="#">Deutsch - DE</a></p> 
+                    <p><input type="radio" name="radio"> <a href="#">עִבְרִית - HE</a></p>                    
+                    <p><input type="radio" name="radio"> <a href="#">한국어 - KO</a></p>                    
+                    <p><input type="radio" name="radio"> <a href="#">Português - PT</a></p>                    
+                    <p><input type="radio" name="radio"> <a href="#">中文 (汉语) - ZH</a></p>                    
+                    <input type="radio" name="radio"> <a href="#">中文 (漢語)- ZH</a>  
+                    <p><div class="line2"></div></p>
+                    <p class="currency">Change currency <a href="#">Learn more</a></p>
+                    <p class="currency2">$ - USD - US Dollar <a href="#">Change</a></p>
+                    <div class="line2"></div>
+                    <p class="currency-flag"><img src="./images/R.png">You are shopping on<br>Amazon.com</p>
+                    <p class="currency-end"><a href="#">Change country/region</a></p>
+                    </div> 
+                </div>
+        </div>
+        <div class="sign-in">
+            <div class="sign-up">
+                <p>Hello, sign in <br><span>Accounts & Lists</span><i class='bx bxs-down-arrow'></i></p>
+            </div>
+                <div class="sign-start">
+                    <div class="sign-down">
+                        <p class="sign-sign"><a href="#">Sign in</a></p>
+                        <p class="customer">New customer? <a href="#">Start here.</a></p>
+                        <div class="line"></div>
+                        <div class="sign-end">
+                            <div class="your-list">
+                                <b>Your Lists</b>
+                                <p><a href="#">Create a List</a></p>
+                                <p><a href="#">Find a List or Registry</a></p>
+                            </div>
+                            <div class="your-account">
+                                <div class="your-line"></div>
+                                <b>Your Account</b>
+                                <p><a href="#">Account</a></p>
+                                <p><a href="#">Orders</a></p>
+                                <p><a href="#">Recommendations</a></p>
+                                <p><a href="#">Browsing History</a></p>
+                                <p><a href="#">Watchlist</a></p>
+                                <p><a href="#">Video Purchases & Rentals</a></p>
+                                <p><a href="#">Kindle Unlimited</a></p>
+                                <p><a href="#">Content & Devices</a></p>
+                                <p><a href="#">Subscribe & Save Items</a></p>
+                                <p><a href="#">Memberships & Subscriptions</a></p>
+                                <p><a href="#">Music Library</a></p>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+        </div>
+        <div class="return"><p>Returns <br> <span> & Orders</span></p></div>
+        <div class="cart"><b>0</b><img src="./images/shopping-cart-icon-30-removebg-preview.png"> <p>Cart</p></div>    
+        </div>
+        <div class="navbar2">
+            <p class="bx-all"><i class='bx bx-menu'></i>All</p>
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift cards</p>
+            <p>Sell</p>
+            <b>Shop great deals now</b>
+        </div>
+            <div class="background">
+                <div class="space"></div>
+                <div class="option1">
+                    <div class="first-option">
+                        <p class="p">Gaming accessories</p>
+                        <div>
+                            <figure>
+                            <img src="./images/headsets.jpg">
+                            <p>
+                                <figcaption>Headsets</figcaption>
+                            </p>
+                        </figure>
+                        <figure>
+                            <img src="./images/mouse.jpg">
+                            <p>
+                                <figcaption>Computer mice</figcaption>
+                            </p>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="./images/keyboard.jpg">
+                            <p>
+                                <figcaption>Keyboards</figcaption>
+                            </p>
+                        </figure>
+                        <figure>
+                            <img src="./images/chair.jpg">
+                             <p>
+                                <figcaption>Chairs</figcaption>
+                            </p>
+                            <a href="#">See more</a>
+                        </figure>
+                    </div>
+                    </div>
+                    <div class="second-option">
+                        <p>Health & Personal Care</p>
+                        <img src="./images/personal.jpg" ><br>
+                        <a href="#">Shop now</a>
+                    </div>
+                    <div class="third-option">
+                            <h1>Shop by Category</h1>
+                            <div>
+                                <figure class="fig1">
+                                    <img src="./images/computer-removebg-preview.png" >
+                                    <p>
+                                        <figcaption>Computers & <br>Accessories</figcaption>
+                                    </p>
+                                </figure>
+                                <figure class="fig2">
+                                    <img src="./images/games-removebg-preview.png" >
+                                    <p>
+                                        <figcaption>Video Games</figcaption>
+                                    </p>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure class="fig3">
+                                    <img src="./images/baby-removebg-preview.png" >
+                                    <p>
+                                        <figcaption>Baby</figcaption>
+                                    </p>
+                                </figure>
+                                <figure class="fig4">
+                                    <img src="./images/toys-removebg-preview.png" >
+                                    <p>
+                                        <figcaption>Toys & Games</figcaption>
+                                    </p>
+                                </figure>
+                            </div>
+                            <a href="#">Shop now</a>
+                    </div>
+                    <div class="forth-option">
+                        <div class="forth-top">
+                            <p>Sign in for the best <br> experience</p>
+                            <a href="#" class="sign-sign">Sign in securely</a>
+                        </div>
+                        <img src="./images/mill.jpg"  >
+                    </div>
+                </div>
+                <div class="option2">
+                    <div class="second-option">
+                            <p>Beauty picks</p>
+                            <img src="./images/beauty.jpg"><br><a href="#">Shop now</a>
+                    </div>
+                    <div class="first-option">
+                        <p class="p">Refresh your space</p>
+                        <div>
+                            <figure>
+                            <img src="./images/dinning.jpg" class="img">
+                            <p>
+                                <figcaption>Dinning</figcaption>
+                            </p>
+                        </figure>
+                        <figure>
+                            <img src="./images/home.jpg">
+                            <p>
+                                <figcaption>Home</figcaption>
+                            </p>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="./images/kitchen.jpg" class="img">
+                            <p>
+                                <figcaption>Kitchen</figcaption>
+                            </p>
+                        </figure>
+                        <figure>
+                            <img src="./images/health.jpg">
+                             <p>
+                                <figcaption>Health and Beauty</figcaption>
+                            </p>
+                            <a href="#">See more</a>
+                        </figure>
+                    </div>
+                    </div>
+                    <div class="second-option">
+                        <p>Electronics</p>
+                            <img src="./images/Screenshot 2023-05-04 122320.png"><br><a href="#">See more</a>
+                    </div>
+                    <div class="second-option">
+                        <p>Get fit at home</p>
+                            <img src="./images/Screenshot 2023-05-04 121511.png"><br><a href="#">Explore now</a>
+                    </div>
+                </div>
+                <div class="option3">
+                    <p>Frequently repurchased in Home</p>
+                    <div>
+                        <img src="./images/home1.jpg">
+                        <img src="./images/home2.jpg">
+                        <img src="./images/home3.jpg">
+                        <img src="./images/home4.jpg">
+                        <img src="./images/home5.jpg">
+                        <img src="./images/home6.jpg">
+                        <img src="./images/home7.jpg">
+                        <img src="./images/home8.jpg">
+                        <img src="./images/home9.jpg">
+                        <img src="./images/home10.jpg">
+                        <img src="./images/home11.jpg">
+                        <img src="./images/home12.jpg">
+                    </div>
+                </div>
+                <div class="option3">
+                    <p>Frequently repurchased in Supplies</p>
+                    <div>
+                        <img src="./images/sup1.jpg">
+                        <img src="./images/sup2.jpg">
+                        <img src="./images/sup3.jpg">
+                        <img src="./images/sup4.jpg">
+                        <img src="./images/sup5.jpg">
+                        <img src="./images/sup6.jpg">
+                        <img src="./images/sup7.jpg">
+                        <img src="./images/sup8.jpg">
+                        <img src="./images/sup9.jpg">
+                        <img src="./images/sup10.jpg">
+                        <img src="./images/sup11.jpg">
+                        <img src="./images/sup12.jpg">
+                    </div>
+                </div>
+                <div class="option4">
+                    <div class="second-option">
+                        <p>Home refresh ideas</p>
+                        <img src="./images/refresh.jpg"><br><a href="#">Shop kitchen upgrades</a>
+                    </div>
+                    <div class="second-option">
+                        <p>For your Fitness Needs</p>
+                        <img src="./images/fitness.jpg"><br><a href="#">Shop now</a>
+                     </div>
+                     <div class="smartwatch">
+                        <p>Shop activity trackers and <br> smartwatches</p>
+                        <img src="./images/SmartWatch.jpg"><br><a href="#">Shop now</a>
+                     </div>
+                     <div class="second-option">
+                        <p>Shop Laptops & Tablets</p>
+                        <img src="./images/lapi.jpg"><br><a href="#">See more</a>
+                     </div>
+                </div>
+                <div class="option3">
+                    <p>Popular products in Beauty internationally</p>
+                    <div>
+                        <img src="./images/pro1.jpg">
+                        <img src="./images/pro2.jpg">
+                        <img src="./images/pro3.jpg">
+                        <img src="./images/pro4.jpg">
+                        <img src="./images/pro5.jpg">
+                        <img src="./images/pro6.jpg">
+                        <img src="./images/pro7.jpg">
+                        <img src="./images/pro8.jpg">
+                        <img src="./images/pro9.jpg">
+                        <img src="./images/pro10.jpg">
+                        <img src="./images/pro11.jpg">
+                        <img src="./images/pro12.jpg">
+                    </div>
+                </div>
+                <div class="option3">
+                    <p>Popular Gifts in Baby <a href="#">Shop now</a></p>
+                    <div>
+                        <img src="./images/b1.jpg">
+                        <img src="./images/b2.jpg">
+                        <img src="./images/b3.jpg">
+                        <img src="./images/b4.jpg">
+                        <img src="./images/b5.jpg">
+                        <img src="./images/b6.jpg">
+                        <img src="./images/b7.jpg">
+                        <img src="./images/b8.jpg">
+                        <img src="./images/b9.jpg">
+                        <img src="./images/b10.jpg">
+                        <img src="./images/b11.jpg">
+                        <img src="./images/b12.jpg">
+                        <img src="./images/b13.jpg">
+                        <img src="./images/b14.jpg">
+                    </div>
+                </div>
+                <div class="option4">
+                    <div class="second-option">
+                        <p>Create with strip lights</p>
+                        <img src="./images/light.jpg"><br><a href="#">Shop now</a>
+                    </div>
+                    <div class="second-option">
+                        <p>Kindle E readers</p>
+                        <img src="./images/read.jpg"><br><a href="#">Shop now</a>
+                     </div>
+                     <div class="smartwatch">
+                        <p>Deals in Tools and Home<br>Improvement</p>
+                        <img src="./images/improve.jpg"><br><a href="#">Shop now</a>
+                     </div>
+                     <div class="second-option">
+                        <p>Spring new arrivals</p>
+                        <img src="./images/spring.jpg"><br><a href="#">Discover more</a>
+                     </div>
+                </div>
+                <div class="option3">
+                    <p>Home Décor Under $20<a href="#">Shop now</a></p>
+                    <div>
+                        <img src="./images/decor1.jpg">
+                        <img src="./images/decor2.jpg">
+                        <img src="./images/decor3.jpg">
+                        <img src="./images/decor4.jpg">
+                        <img src="./images/decor5.jpg">
+                        <img src="./images/decor6.jpg">
+                        <img src="./images/decor7.jpg">
+                        <img src="./images/decor8.jpg">
+                        <img src="./images/decor9.jpg">
+                        <img src="./images/decor10.jpg">
+                        <img src="./images/decor11.jpg">
+                        <img src="./images/decor12.jpg">
+                    </div>
+                </div>
+                <div class="option3">
+                    <p>Top Sellers in Books for you</p>
+                    <div>
+                        <img src="./images/book1.jpg">
+                        <img src="./images/book2.jpg">
+                        <img src="./images/book3.jpg">
+                        <img src="./images/book4.jpg">
+                        <img src="./images/book5.jpg">
+                        <img src="./images/book6.jpg">
+                        <img src="./images/book7.jpg">
+                        <img src="./images/book8.jpg">
+                        <img src="./images/book9.jpg">
+                        <img src="./images/book10.jpg">
+                        <img src="./images/book11.jpg">
+                        <img src="./images/book12.jpg">
+                        <img src="./images/book13.jpg">
+                        <img src="./images/book14.jpg">
+                        <img src="./images/book15.jpg">
+                        <img src="./images/book16.jpg">
+                        <img src="./images/book17.jpg">
+                        <img src="./images/book18.jpg">
+                        <img src="./images/book19.jpg">
+                    </div>
+                </div>
+                <div class="option3">
+                    <p>International top sellers</p>
+                    <div>
+                        <img src="./images/seller1.jpg">
+                        <img src="./images/seller2.jpg">
+                        <img src="./images/seller3.jpg">
+                        <img src="./images/seller4.jpg">
+                        <img src="./images/seller5.jpg">
+                        <img src="./images/seller6.jpg">
+                        <img src="./images/seller7.jpg">
+                        <img src="./images/seller8.jpg">
+                        <img src="./images/seller9.jpg">
+                        <img src="./images/seller10.jpg">
+                        <img src="./images/seller11.jpg">
+                        <img src="./images/seller12.jpg">
+                    </div>
+                </div>
+                <div class="body-ending">
+                    <h1>See personalized recommendations</h1>
+                    <a href="#" class="last">Sign in</a>
+                    <p class="customer">New customer? <a href="#">Start here.</a></p>
+                </div>
+                <footer>
+                    <p class="top"><a href="#top">Back to top</a></p>
+                    <div class="help">
+                        <div class="help-content">
+                            <h1>Get to Know Us</h1>
+                            <p>Careers</p>
+                            <p>Blog</p>
+                            <p>About Amazon</p>
+                            <p>Investor Relations</p>
+                            <p>Amazon Devices</p>
+                            <P>Amazon Science</P>
+                        </div>
+                        <div>
+                            <h1>Make Money with Us</h1>
+                            <p>Sell products on Amazon</p>
+                            <p>Sell on Amazon Business</p>
+                            <p>Sell apps on Amazon</p>
+                            <p>Become an Affiliate</p>
+                            <p>Advertise Your Products</p>
+                            <P>Self-Publish with Us</P>
+                            <p>Host an Amazon Hub</p>
+                            <p>> See More Make Money <br>With Us</p>
+                        </div>
+                        <div>
+                            <h1>Amazon Payment Products</h1>
+                            <p>Amazon Business Card</p>
+                            <p>Shop with Points</p>
+                            <p>Reload Your Balance</p>
+                            <p>Amazon Currency Converter</p>
+                        </div>
+                        <div>
+                            <h1>Let Us Help You</h1>
+                            <P>Amazon and COVID- <br>19</P>
+                            <p>Your Account</p>
+                            <p>Your Orders</p>
+                            <p>Shipping Rates & <br>Polices</p>
+                            <p>Returns & <br> Replacements</p>
+                            <p>Manage Your <br> Content and Devices</p>
+                            <p>Amazon Assitant</p>
+                            <p>Help</p>
+                        </div>
+                    </div>
+                    <div class="help-bottom">
+                        <img src="./images/White-Amazon-Logo-PNG-HD-Quality.png" class="amazon">
+                        <div class="english"><i class='bx bx-globe' id="globe"></i>English <div class="arrow"><p><i class='bx bxs-up-arrow' id="up"></i></p><p><i class='bx bxs-down-arrow' id="down"></i></p></div></div>
+                        <p class="dollar">$ USD - U.S. Dollar</p>
+                        <p class="united"><img src="./images/R.png"> United States</p>
+                    </div>
+                    <div class="footer">
+                        <div class="footer1">
+                           <div>
+                            <h4>Amazon Music</h4>
+                            <p>Stream millions<br>of songs</p>
+                           </div>
+                           <div>
+                            <h4>Amazon<br> Advertising</h4>
+                            <p>Find, attract,<br>and<br>engage<br> customers</p>
+                           </div>
+                           <div>
+                            <h4>6pm</h4>
+                            <p>Score deals<br>on fashion<br>brands</p>
+                           </div>
+                           <div>
+                            <h4>AbeBooks</h4>
+                            <p>Books, art<br>& colllectibles</p>
+                           </div>
+                           <div>
+                            <h4>ACX</h4>
+                            <p>Audiobook<br>Publishing<br>Made Easy</p>
+                           </div>
+                           <div>
+                            <h4>Sell on Amazon</h4>
+                            <p>Start a Selling <br>Account</p>
+                           </div>
+                           <div>
+                            <h4>Amazon Business</h4>
+                            <p>Everything For <br> Your Business</p>
+                           </div>
+                        </div>
+                        <div class="footer2">
+                                <div>
+                                <h4>AmazonGlobal</h4>
+                                <p>Ship Orders<br>internationally</p>
+                               </div>
+                               <div>
+                                <h4>Home Services</h4>
+                                <p>Experienced<br>Pros<br>Happiness<br>Guarantee</p>
+                               </div>
+                               <div>
+                                <h4>Amazon Ignite</h4>
+                                <p>Sell your<br>original<br>Digital<br>Educational<br>Resources</p>
+                               </div>
+                               <div>
+                                <h4>Amazon Web Services</h4>
+                                <p>Scalable Cloud<br>Computing Services</p>
+                               </div>
+                               <div>
+                                <h4>Audible</h4>
+                                <p>Listen to Books & <br>Original<br>Audio<br>Performances</p>
+                               </div>
+                               <div>
+                                <h4>Book Depository</h4>
+                                <p>Books With Free<br>Delivery <br> Worldwide</p>
+                               </div>
+                               <div>
+                                <h4>Box Office Mojo</h4>
+                                <p>Find Movie<br>Box Office Data</p>
+                               </div>
+                        </div>
+                        <div class="footer3">
+                            <div>
+                                <h4>ComiXology</h4>
+                                <p>Thousands of<br>Digital Comics</p>
+                               </div>
+                               <div>
+                                <h4>DPReview</h4>
+                                <p>Digital<br>Photography</p>
+                               </div>
+                               <div>
+                                <h4>Fabric</h4>
+                                <p>Sewing,<br>Quilting<br>& Knitting</p>
+                               </div>
+                               <div>
+                                <h4>Goodreads</h4>
+                                <p>Book reviews<br>& recommendations</p>
+                               </div>
+                               <div>
+                                <h4>IMDb</h4>
+                                <p>Movies, TV<br>& Celebrities</p>
+                               </div>
+                               <div>
+                                <h4>IMDbPro</h4>
+                                <p>Get info<br>Entertainment<br>Professinals <br>Need</p>
+                               </div>
+                               <div>
+                                <h4>Kindle Direct <br> Publishing</h4>
+                                <p>Indie Digital &<br>Print Publishing<br>Made Easy</p>
+                               </div>
+                        </div>
+                        <div class="footer4">
+                            <div>
+                                <h4>Prime Video Direct</h4>
+                                <p>Video<br>Distribution <br>Made Easy</p>
+                               </div>
+                               <div>
+                                <h4>Shopbop</h4>
+                                <p>Designer<br>Fashion Brands</p>
+                               </div>
+                               <div>
+                                <h4>Woot!</h4>
+                                <p>Deals and<br>Shenanigans</p>
+                               </div>
+                               <div>
+                                <h4>Zappos</h4>
+                                <p>Shops &<br>Clothing</p>
+                               </div>
+                               <div>
+                                <h4>Ring</h4>
+                                <p>Smart Home<br>Security Systems</p>
+                               </div>
+                               <div>
+                                <h4>eero WiFi</h4>
+                                <p>Stream 4K Video <br> in every Room</p>
+                               </div>
+                               <div>
+                                <h4>Blink</h4>
+                                <p>Smart Security <br> for Every Home</p>
+                               </div>
+                        </div>
+                        <div class="footer5">
+                                <div>
+                                    <h4>Neighboors App</h4>
+                                    <p>Real-Time <br>Crime <br>& Safety <br>Alerts</p>
+                                </div>
+                                <div>
+                                    <h4>Amazon Subscription Boxes</h4>
+                                    <p>Top Subscription boxes - <br> right to your door</p>
+                                </div>
+                                <div>
+                                    <h4>PillPack</h4>
+                                    <p>Pharmacy <br>Simplified</p>
+                                </div>
+                        </div>
+                        <div class="ending">
+                            <div class="h4"><h4>Conditions of Use</h4> <h4>Privacy Notice</h4> <h4>Your Ads Privacy Choices</h4></div>
+                            <p class="p">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+</body>        
+</html> 
