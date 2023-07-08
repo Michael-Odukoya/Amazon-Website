@@ -992,7 +992,7 @@ input[type='radio']:checked:after {
     min-height: 34.5rem;
     background-color: #131921;
     padding-top: 2rem;
-    padding-left: 13rem;
+    padding-left: 14rem;
     padding-right: 3rem;
 }
 .footer1{
@@ -1022,34 +1022,78 @@ input[type='radio']:checked:after {
 .footer2{
     display: flex;
 }
-.footer2 div{
-    margin-right: 3rem;
+.footer2 .f3{
+    margin-right: 2.7rem;
+}
+.footer2 .f4{
+    margin-right: 2rem;
+}
+.footer2 .f5{
+    margin-right: 1.5rem ;
 }
 .footer3{
     display: flex;
 }
+.footer3 .f1{
+    margin-right: 4.3rem;
+}
+
+.footer3 .f2{
+    margin-right: 4.7rem;
+}
+.footer3 .f3{
+    margin-right: 4.1rem;
+}
+.footer3 .f4{
+    margin-right: 2.5rem;
+}
+.footer3 .f5{
+    margin-right: 3rem;
+}
+.footer3 .f6{
+    margin-right: 4.6rem;
+}
 .footer4{
     display: flex;
 }
+.footer4 .f1{
+    margin-right: 5rem;
+}
+.footer4 .f3{
+    margin-right: 3.5rem;
+}
+.footer4 .f4{
+    margin-right: 6.4rem;
+}
+.footer4 .f5{
+    margin-right: 1.7rem;
+}
 .footer5{
     display: flex;
-    margin-left: 17rem;
+    margin-left: 18rem;
+}
+.footer5 .f1{
+    margin-right: 2.5rem;
+}
+.footer5 .f2{
+    margin-right: 1.1rem;
 }
 .ending {
     text-align: center;
 }
 .ending .h4{
     display: flex;
-    margin-left: 20.5rem;
+    margin-left: 17rem;
     margin-top: 3.5rem;
 }
 .ending h4{
     padding-left: 1rem;
-    
 }
 
 .ending .p{
   color: #fff;
+  margin-right: 6rem ;
+
 }
 
 @media screen and (max-width:768px) {
